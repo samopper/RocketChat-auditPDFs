@@ -1,4 +1,5 @@
-# rocketchat-dbexportsort
+# rocketchat-auditPDFs
+
 Takes exports of rocketchat's messages and rooms collections and creates readable pdfs for every room in the server including direct messages.
 
 Step 1:
