@@ -16,7 +16,7 @@ for(let message of messages){
     if(!room){
         room = {
             _id: message._id,
-            name:'MESSAGE NOT IN A ROOM',
+            name:'MESSAGE NOT IN A ROOM ' + message._id,
             messageList:[message]
         }
         roomMap.set(message.id, room)
